@@ -59,7 +59,8 @@ font-family: Inter;
 font-size: 24px;
 
 font-weight: 500;
-}
+}  
+
 .categori{
     color: #070211;
 font-family: Inter;
@@ -120,6 +121,7 @@ font-weight: 400;
 .content-date{
     width: 1320px;
     height: 482px;
+    width:68%;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     margin:120px auto;
@@ -150,4 +152,61 @@ font-weight: 400;
 }
 .content-intro{
     padding:100px 300px;
+}
+.conteiner-two{
+    width:1320px;
+    width:68%;
+    display:flex;
+    margin:120px auto;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.content-descrip, .content-img, .content-descrip2{
+    width:33%;
+}
+.content-descrip{
+    margin-right:70px;
+}
+.content-img{
+    margin-right:118px;
+}
+.content-descrip h5{
+    color: #F00;
+
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+    bottom:0px;
+}
+.content-descrip h1{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+margin-bottom:22px;
+}
+.content-descrip p, .dolor{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.content-img img{
+    border: 15px solid #F00;
+    border-radius:50%;
+}
+.content-descrip2 h2{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    
+    font-weight: 700;
 }
