@@ -215,7 +215,7 @@ font-weight: 400;
 .conteiner-thired{
     width:68%;
     max-width: 1320px;
-    height:600px;
+    height:700px;
     margin:0 auto;
     text-align: center;
    
@@ -246,3 +246,30 @@ font-weight: 400;
     padding:0px 266px;
     font-weight: 500;
 }
+.main-img{
+    background-image: url('../images/Rectangle\ 2.png');  
+ 
+    background-repeat: no-repeat;
+   background-position: bottom;
+   margin-top:64px;
+}
+.images-div{
+    display:flex;
+    position:relative;
+   
+ 
+}
+
+.image-3{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top:5px;
+}
+.image-2{
+    position:absolute;
+    right:285px;
+    margin-top:86px;
+    
+}
+
