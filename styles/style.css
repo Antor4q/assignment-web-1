@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,700;0,900;1,400;1,700&display=swap');
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
-*{
-    
-}
 .header1{
     
     width:68%;
@@ -54,6 +51,7 @@ font-family: 'Merriweather', serif; */
 
 
     font-weight: 700;
+    margin-bottom:48px;
 }
 .sec1-content h5{
     color: #F00;
@@ -64,9 +62,60 @@ font-size: 24px;
 
 font-weight: 500;
 }
-.sec-content h3{
+.categori{
     color: #070211;
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
+margin-bottom:48px;
+}
+
+.container{
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin:120px auto;
+   align-items: center;
+    width:68%;
+    max-width: 1320px;
+    height:600px;
+    display:flex;
+    
+
+   
+   
+    
+}
+.content{
+    padding:125px;
+}
+
+.content h1{
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 64px;
+
+font-weight: 900;
+
+}
+.content p{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+
+font-weight: 400;
+}
+.container-img{
+    padding:125px;
+
+}
+.btn-pro{
+   color:#FFF;
+    background: none;
+    border:none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
