@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,700;0,900;1,400;1,700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+*{
+    
+}
+.header1{
+    
+    width:68%;
+    max-width: 1320px;
+    height:600px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/images/Banner\ Image\ \(1\).png');
+    align-items: center;
+    
+    
+   
+
+}
+.header1 h4 .header-title{
+    padding:130px 340px;
+}
+.header1 h4{
+    color: #FFF;
+
+   
+    font-family: Merriweather;
+    font-size: 32px;
+
+    font-weight: 400;
+}
+.header-title{
+    color: #FFF;
+
+
+    font-family: Merriweather;
+    font-size: 72px;
+
+    font-weight: 900;
+}
+/* section related styles */
+.sec1-content{
+    align-items: center;
+    text-align: center;
+}
+.sec1-content h1{
+    color: #F00;
+
+
+    font-family: Inter;
+    font-size: 88px;
+
+
+    font-weight: 700;
+}
+.sec1-content h5{
+    color: #F00;
+
+
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+}
+.sec-content h3{
+    color: #070211;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
