@@ -365,3 +365,33 @@ font-weight: 400;
     font-weight: 600;
     padding:23px 50px;
 }
+footer{
+    background: #070211;
+    width:100%;
+    height:100%;
+}
+.footer-section-content{
+    max-width:1320px;
+    width:68%;
+    margin:120px auto;
+    
+}
+.footer-div{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.footer-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-intro p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
