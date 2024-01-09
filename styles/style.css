@@ -374,6 +374,7 @@ footer{
     max-width:1320px;
     width:68%;
     margin:120px auto;
+    padding:120px;
     
 }
 .footer-div{
@@ -394,4 +395,32 @@ footer{
     font-style: normal;
     font-weight: 500;
    
+}
+
+.footer-images{
+    display:flex;
+    justify-content: center;
+    gap:24px;
+}
+.footer-section-content hr{
+    margin:50px auto;
+    opacity: 40%;
+}
+.copyright p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-copy{
+    display:flex;
+    justify-content: space-between;
+}
+.end-button button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    border:none;
+    background:none;
 }
