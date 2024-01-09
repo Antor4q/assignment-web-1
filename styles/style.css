@@ -316,8 +316,7 @@ font-weight: 400;
 }
 .hov1:hover{
     transform:scale(1.2);
-    border:5px double aqua;
-    border-radius:16px;
+  
 }
 .items-line1{
     width:33%;
