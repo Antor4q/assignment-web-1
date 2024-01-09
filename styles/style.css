@@ -316,7 +316,8 @@ font-weight: 400;
 }
 .hov1:hover{
     transform:scale(1.2);
-  
+    border:5px  solid aqua;
+    border-radius: 15px;
 }
 .items-line1{
     width:33%;
@@ -408,7 +409,9 @@ footer{
     font-weight: 500;
    
 }
-
+.footer-intro img{
+    margin-right:10px;
+}
 .footer-images{
     display:flex;
     justify-content: center;
