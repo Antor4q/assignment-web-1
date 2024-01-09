@@ -229,6 +229,9 @@ font-weight: 400;
     font-weight: 500;
     margin-bottom:0px;
 }
+.holiday{
+    color: #F00;
+}
 .content-description h1{
     color: #070211;
     font-family: Merriweather;
@@ -260,19 +263,25 @@ font-weight: 400;
    
  
 }
+.image-2{
+    position:absolute;
+    right:285px;
+    margin-top:86px;
+    z-index: 2;
+}
+    
+
 
 .image-3{
     position:absolute;
     top:0;
     right:0;
     margin-top:5px;
+    z-index: 1;
 }
-.image-2{
-    position:absolute;
-    right:285px;
-    margin-top:86px;
+
     
-}
+
 .container-fourth{
     max-width:1320px;
     width:68%;
